@@ -10,10 +10,10 @@
 		E894E2511D95A85000DB98C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894E2501D95A85000DB98C5 /* AppDelegate.swift */; };
 		E894E2531D95A85000DB98C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894E2521D95A85000DB98C5 /* ViewController.swift */; };
 		E894E2561D95A85000DB98C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E894E2541D95A85000DB98C5 /* Main.storyboard */; };
-		E894E2581D95A85000DB98C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E894E2571D95A85000DB98C5 /* Assets.xcassets */; };
 		E894E25B1D95A85000DB98C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E894E2591D95A85000DB98C5 /* LaunchScreen.storyboard */; };
 		E894E2661D95A85000DB98C5 /* adjustableViewHeightsProgramaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894E2651D95A85000DB98C5 /* adjustableViewHeightsProgramaticTests.swift */; };
 		E894E2711D95A85000DB98C5 /* adjustableViewHeightsProgramaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E894E2701D95A85000DB98C5 /* adjustableViewHeightsProgramaticUITests.swift */; };
+		E8D5B1181D96FEFC00BCFDD0 /* pokerface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8D5B1171D96FEFC00BCFDD0 /* pokerface.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		E894E2501D95A85000DB98C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E894E2521D95A85000DB98C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E894E2551D95A85000DB98C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E894E2571D95A85000DB98C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E894E25A1D95A85000DB98C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E894E25C1D95A85000DB98C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E894E2611D95A85000DB98C5 /* adjustableViewHeightsProgramaticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adjustableViewHeightsProgramaticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		E894E26C1D95A85000DB98C5 /* adjustableViewHeightsProgramaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adjustableViewHeightsProgramaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E894E2701D95A85000DB98C5 /* adjustableViewHeightsProgramaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = adjustableViewHeightsProgramaticUITests.swift; sourceTree = "<group>"; };
 		E894E2721D95A85000DB98C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D5B1171D96FEFC00BCFDD0 /* pokerface.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pokerface.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +97,10 @@
 		E894E24F1D95A85000DB98C5 /* adjustableViewHeightsProgramatic */ = {
 			isa = PBXGroup;
 			children = (
+				E8D5B1171D96FEFC00BCFDD0 /* pokerface.jpg */,
 				E894E2501D95A85000DB98C5 /* AppDelegate.swift */,
 				E894E2521D95A85000DB98C5 /* ViewController.swift */,
 				E894E2541D95A85000DB98C5 /* Main.storyboard */,
-				E894E2571D95A85000DB98C5 /* Assets.xcassets */,
 				E894E2591D95A85000DB98C5 /* LaunchScreen.storyboard */,
 				E894E25C1D95A85000DB98C5 /* Info.plist */,
 			);
@@ -229,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D5B1181D96FEFC00BCFDD0 /* pokerface.jpg in Resources */,
 				E894E25B1D95A85000DB98C5 /* LaunchScreen.storyboard in Resources */,
-				E894E2581D95A85000DB98C5 /* Assets.xcassets in Resources */,
 				E894E2561D95A85000DB98C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 				E894E2771D95A85000DB98C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E894E2781D95A85000DB98C5 /* Build configuration list for PBXNativeTarget "adjustableViewHeightsProgramaticTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				E894E27A1D95A85000DB98C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E894E27B1D95A85000DB98C5 /* Build configuration list for PBXNativeTarget "adjustableViewHeightsProgramaticUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				E894E27D1D95A85000DB98C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
